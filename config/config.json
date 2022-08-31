@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pva-chatbot-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/pvaChatbot/PvaChatbotApplicationCustomizer.js",
+          "manifest": "./src/extensions/pvaChatbot/PvaChatbotApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PvaChatbotApplicationCustomizerStrings": "lib/extensions/pvaChatbot/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://asos1.sharepoint.com/sites/cloudplatformengineering",
+      "customActions": {
+        "fb3d64cc-5a9e-4e4f-95aa-e05a212615f3": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "pvaChatbot": {
+      "pageUrl": "https://asos1.sharepoint.com/sites/cloudplatformengineering",
+      "customActions": {
+        "fb3d64cc-5a9e-4e4f-95aa-e05a212615f3": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

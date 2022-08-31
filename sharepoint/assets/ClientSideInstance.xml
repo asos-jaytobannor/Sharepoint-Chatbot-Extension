@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="PvaChatbot"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="fb3d64cc-5a9e-4e4f-95aa-e05a212615f3"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
